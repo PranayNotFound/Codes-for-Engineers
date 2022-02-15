@@ -78,32 +78,3 @@ int inMat(int a[][10],int r, int c)
 
 
 
-/*int disMat(int p[][10], int r, int c)
-{		int i,j;
-		printf("%c",218);
-		for (i=0;i<c;i++)
-		{
-			printf("\t");
-		}
-		printf("\t%c\n",191);
-		
-		//printing matrix data
-		for (i=0;i<r;i++)
-		{
-			printf("%c\t",179);
-			for (j=0;j<c;j++)
-			{
-				printf("%d\t",p[i][j]);
-			}
-			printf("%c",179);
-			printf("\n");
-		}
-		printf("%c",192);
-		for (i=0;i<c;i++)
-		{
-			printf("\t");
-		}
-		printf("\t%c\n",217);
-}*/
-
-
