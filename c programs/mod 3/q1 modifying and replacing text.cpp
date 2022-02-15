@@ -28,17 +28,8 @@ int main()
 		else
 		{
 			printf("%c",246);
-			//a[i]=246;
-			//a[++i]='*';
-			//a[++i]=237;
-			//c=c+2;
 			printf("*");
 			printf("%c",237);
 		}
-	}
-	//printf("%d\n\n",(c));
-	for (j=0;j<=l+c;j++)
-	{
-		//printf("%c",a[j]);
 	}
 }
