@@ -1,4 +1,4 @@
-//Modded by Gautam.
+//MODDED BY GAUTAM.
 #include<stdio.h>
 int main()
 {
