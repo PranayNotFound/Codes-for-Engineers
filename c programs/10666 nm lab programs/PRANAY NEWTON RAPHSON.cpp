@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+
 #include<iostream>
 #include<iomanip>
 #include<math.h>
@@ -17,13 +17,16 @@ return (920*x*x*x)+(54*x*x) +18*x-221;
 }
 
 void NewtonRaphson(double x){
-    double e = pow(10,-6);
+    double e = pow(10,-16);
     double y=0.0,z=100.0;
     while((z-x)>e || (x-z)>e){
     z=x;
     x = x - (func(x)/derivativefunc(x));
     }
-    cout<<"The required root is :"<<x;
+    cout<<"The required root is :";
+     std::cout << std::fixed;
+    std::cout << std::setprecision(10);
+    std::cout << x;
 }
 
 int main() {
