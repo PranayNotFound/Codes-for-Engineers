@@ -4,23 +4,24 @@
 #include<math.h>
 #include<stdlib.h>
 
-#define e 0.001
+
 
 using namespace std;
 
 double func(double x){
-return (x*x*x) - (5*x) + 1;
+return (230*x*x*x*x) + (18*x*x*x) + 9*x*x-221*x-9;
 }
 
 double derivativefunc(double x){
-return (3*x*x) - 5;
+return (920*x*x*x)+(54*x*x) +18*x-221;
 }
 
 void NewtonRaphson(double x){
-    int i = 5;
-    while(i>0){
+    double e = pow(10,-6);
+    double y=0.0,z=100.0;
+    while((z-x)>e || (x-z)>e){
+    z=x;
     x = x - (func(x)/derivativefunc(x));
-    i--;
     }
     cout<<"The required root is :"<<x;
 }
